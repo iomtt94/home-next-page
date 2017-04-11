@@ -1,0 +1,345 @@
+@import "bourbon";
+@import "fonts";
+@import "libs";
+@import "vars";
+*::-webkit-input-placeholder {
+    color: rgba(128, 128, 128, 0.51);
+    opacity: 1;
+}
+
+
+
+*:-moz-placeholder {
+    color: rgba(128, 128, 128, 0.51);
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: rgba(128, 128, 128, 0.51);
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: rgba(128, 128, 128, 0.51);
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+    color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+    color: #666;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: $default-font;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+h2 {
+    @include h2-style; 
+}
+
+h3 {
+    font-size: 17px;
+    font-family: $default-font;
+    color: #333333;
+    font-weight: 600!important;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.inner-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Start of navbar **/
+
+.navbar-container {
+    background-color: #fff;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom: none!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    margin-bottom: 0px;
+    .navbar-header {
+        position: relative;
+        margin-top: 0px;
+    }
+    .navbar-header a img {
+        margin-top: -17px;
+    }
+    .navbar-nav {
+        position: relative;
+        float: right;
+        li a {
+            color: #333333!important;
+            padding: 30px 30px;
+            &:hover {
+                color: $btn-color!important;
+            }
+        }
+    }
+}
+
+.nav-shadow{
+-webkit-box-shadow: 0px 2px 0px 0px #dadada;
+-moz-box-shadow: 0px 2px 0px 0px #dadada;
+box-shadow: 0px 2px 0px 0px #dadada;
+}
+
+
+/* End of navbar **/
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+/* Start of the block with cards **/
+
+.items {
+    .card img {
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+    }
+    .card-container {
+        background: #fff;
+        p {
+            color: #333333;
+            margin-top: 10px;
+            text-align: left;
+        }
+    }
+
+}
+
+.card {
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.main-header{
+    font-family: $default-font;
+    font-size: 36px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.category-text{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: #808080;
+}
+
+.main-text{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.sed-egestas{
+    border: 1px solid #ebebeb;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    margin-top: 38px;
+    margin-bottom: 30px;
+}
+
+.sed-egestas img{
+    width: auto!important;
+}
+
+.sed-egestas p {
+    line-height: 22px;
+    margin-top: 0px!important;
+    font-size: 14px!important;
+}
+
+.rel-serm-header{
+    margin-top: 30px!important;
+    margin-bottom: 20px!important;
+}
+
+.fluid-pd-bot{
+    padding-bottom: 21px;
+}
+
+.item-content-header{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.item-content-text{
+    color: #808080;
+    font-size: 14px;
+}
+
+.items-header{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.item{
+    width: 48%;
+    margin-right: 10px;
+    min-width: 320px;
+    height: 140px;
+    padding-left: 0;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.item-block{
+    text-align: center;
+    margin: 0 auto;
+}
+/* End of the block with cards **/
+
+/* Start of the subscribe section **/
+
+.subscribe-block {
+    background: #fff;
+    .subscribe-text {
+        margin-bottom: 16px;
+        padding-top: 17px;
+        font-family: $default-font;
+        font-size: 16px;
+        background: #fff;
+    }
+    .subscribe-email {
+        padding-left: 15px;
+        border: none;
+        background: #ebebeb;
+        height: 40px;
+        width: 283px;
+    }
+    .subscribe-button {
+        width: 140px;
+        position: relative;
+        right: 4px;
+        height: 40px;
+        border: none;
+        background: $btn-color;
+        color: #fff;
+        margin-bottom: 22px;
+        &:hover {
+            background: $btn-hover;
+        }
+    }
+    input:focus {
+        border: none!important;
+        outline-offset: none!important;
+        outline: none!important;
+    }
+}
+
+
+/* End of the subscribe section **/
+
+
+/* Start of the footer **/
+
+.footer {
+    background-color: #333333;
+    .social-icons {
+        margin-top: 10px;
+    }
+    ul li .social {
+        font-size: 25px;
+        color: #333333;
+    }
+    ul li a i {
+        margin-top: 28px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        -webkit-border-radius: 70px;
+        -moz-border-radius: 70px;
+        border-radius: 70px;
+    }
+    .social-icons li a {
+        &:hover:nth-child(1) {
+            color: #1da1f2
+        }
+        &:hover:nth-child(2) {
+            color: #4867aa;
+        }
+        &:hover:nth-child(3) {
+            color: #e62b24;
+        }
+    }
+    .fa-youtube:before {
+        position: relative;
+        top: 9px!important;
+        content: "\f167";
+    }
+    .fa-facebook:before {
+        position: relative;
+        top: 9px!important;
+        content: "\f09a";
+    }
+    .fa-twitter:before {
+        position: relative;
+        top: 9px!important;
+        content: "\f099";
+    }
+    .footer-last-p {
+        padding-bottom: 116px;
+        margin-top: 28px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #fff;
+    }
+}
+
+.fa-youtube:before {
+    margin-top: 10px!important;
+    content: "\f167";
+}
+
+.footer-pages {
+    margin-top: 21px;
+}
+
+.footer-pages li a {
+    margin: 16px;
+    margin-top: 21px!important;
+    color: #fff;
+}
+
+
+/* End of the footer **/
+
+@import "media";

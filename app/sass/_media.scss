@@ -1,0 +1,98 @@
+@import "bourbon";
+@import "vars";
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+    .sed-egestas-img{
+        margin: 0 auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .card-container h3 {
+        text-align: center!important;
+        margin: 0!important;
+    }
+    .card-container p {
+        text-align: center!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+        .item{
+    width: 100%;
+}
+    .sed-egestas-img{
+        margin: 0 auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .navbar .navbar-header {
+        position: relative;
+        margin-top: 0;
+        height: 80px;
+    }
+    .navbar-toggle {
+        margin-top: 20px;
+    }
+    .nav>li {
+        text-align: center;
+        position: relative;
+        display: block;
+    }
+    .navbar-default .navbar-toggle {
+        border: none;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #fff!important;
+    }
+    .img-hero-text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .img-last-text {
+        font-size: 15px;
+    }
+    input[type=search] {
+        font-size: 16px;
+        top: 0px;
+    }
+    .search-btn {
+        top: 9%;
+    }
+    .container-header-second-block h2 {
+        text-align: center;
+    }
+    .subscribe-block .subscribe-email {
+        float: left;
+        width: 70%;
+    }
+    .subscribe-block .subscribe-button {
+        width: 30%;
+        right: 1px;
+    }
+    .footer-pages li a {
+        display: block;
+    }
+    .navbar .navbar-nav {
+        position: relative;
+        float: none;
+        /* width: 100%; */
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (min-width: 320px) {}
+
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}

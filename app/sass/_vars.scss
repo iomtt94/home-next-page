@@ -1,0 +1,14 @@
+@import "bourbon";
+$default-font: 'Open Sans';
+$btn-color: #1171d4;
+$btn-hover: #118cd4;
+$body-color: #ebebeb;
+
+@mixin h2-style {
+  font: {
+    size: 21px;
+    weight: 600;
+  }
+  color: #333333;
+  line-height: 26px;
+}
